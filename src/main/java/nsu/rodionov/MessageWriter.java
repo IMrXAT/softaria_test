@@ -30,9 +30,9 @@ public class MonitoringSystemMessenger implements MessageCreator {
                 "\n" +
                 "За последние сутки во вверенных Вам сайтах произошли следующие изменения:\n" +
                 "\n" +
-                "Исчезли следующие страницы: " + missPageURL/*.stream().distinct().map(String::valueOf).toList()*/ + "\n" +
-                "Появились следующие новые страницы: " + newPageURL/*.stream().distinct().map(String::valueOf).toList()*/ + "\n" +
-                "Изменились следующие страницы: " + changedPageURL/*.stream().distinct().map(String::valueOf).toList()*/ + "\n" +
+                "Исчезли следующие страницы: " + missPageURL + "\n" +
+                "Появились следующие новые страницы: " + newPageURL + "\n" +
+                "Изменились следующие страницы: " + changedPageURL + "\n" +
                 "\n" +
                 "С уважением,\n" +
                 "автоматизированная система\n" +
