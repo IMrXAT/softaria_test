@@ -9,9 +9,13 @@ public class Main {
     public static void main(String[] args) {
         yesterday = new HashMap<>();
         today = new HashMap<>();
-        MessageWriter writer = new MessageWriter();
-        MessagePrinter printer = new MessagePrinter();
+        CrateAndPrintMessage();
+        
+    }
 
+    private static void CrateAndPrintMessage() {
+        MonitoringSystemMessenger writer = new MonitoringSystemMessenger();
+        MessagePrinter printer = new MessagePrinter();
         initHashmaps();
         Checker checker = new Checker(yesterday, today, writer);
         checker.checkNewURLs();
