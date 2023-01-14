@@ -49,37 +49,4 @@ public class Checker{
         }
 
     }
-
-//    @Override
-//    public void run() {
-//        for(Map.Entry<String, String> yesterdaySite: yesterday.entrySet()){
-//            String key = yesterdaySite.getKey();
-//
-//            if (today.containsKey(key)){
-//
-//                String yesterdayHTML = yesterdaySite.getValue();
-//                String todayHTML = today.get(key);
-//
-//                if (yesterdayHTML.hashCode() != todayHTML.hashCode()){
-//                    writer.addChangedSiteURL(key);
-//                }
-//                else if (!yesterdayHTML.equals(todayHTML)){
-//                    writer.addChangedSiteURL(key);
-//                }
-//
-//            }
-//            else{
-//                writer.addOnlyYesterdaySiteURL(yesterdaySite.getKey());
-//            }
-//        }
-//
-//        for (Map.Entry<String, String> todaySite: today.entrySet()){
-//            String key = todaySite.getKey();
-//
-//            if (!yesterday.containsKey(key)){
-//                writer.addOnlyTodaySiteURL(key);
-//            }
-//        }
-//
-//    }
 }
