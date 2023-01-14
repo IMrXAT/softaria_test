@@ -2,13 +2,13 @@ package nsu.rodionov;
 
 import java.util.ArrayList;
 
-public class MessageWriter {
+public class MonitoringSystemMessenger implements MessageCreator {
 
     ArrayList<String> missPageURL;
     ArrayList<String> newPageURL;
     ArrayList<String> changedPageURL;
 
-    MessageWriter(){
+    MonitoringSystemMessenger(){
         this.missPageURL = new ArrayList<>();
         this.newPageURL = new ArrayList<>();
         this.changedPageURL = new ArrayList<>();
