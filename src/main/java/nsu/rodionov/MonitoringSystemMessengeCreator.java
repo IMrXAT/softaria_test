@@ -2,7 +2,7 @@ package nsu.rodionov;
 
 import java.util.ArrayList;
 
-public class MonitoringSystemMessenger implements MessageCreator {
+public class MonitoringSystemMessengeCreator implements MessageCreator {
 
     ArrayList<String> missPageURL;
     ArrayList<String> newPageURL;
